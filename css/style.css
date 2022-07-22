@@ -175,7 +175,6 @@ body {
   {
     content: "";
     position: absolute;
-		/* border: 1px solid #00A4E5; */
 		background-color: #00A4E5;
     width: 50px;
     height: 2px;
@@ -243,6 +242,107 @@ body {
 	line-height: 120%;
 	letter-spacing: 0.1875px;
 	color: #FFFFFF;
+}
+
+.capabilities {
+}
+
+.capabilities__page {
+}
+
+.capabilities__container {
+}
+
+.capabilities__content {
+	display: flex;
+	margin: 0px 0px 80px 0px;
+}
+
+.capabilities-content__title {
+	font-family: 'Open Sans';
+	width: 200px;
+	font-size: 18px;
+	line-height: 116%;
+	font-weight: 700;
+	letter-spacing: 2.30625px;
+	color: #48555B;
+	position: relative;
+	margin: 0px 154px 0px 0px;
+}
+
+.capabilities-content__title::before {
+	content: "";
+	position: absolute;
+	background-color: #00A4E5;
+	width: 50px;
+	height: 2px;
+	left: 0px;
+	top: 33px;
+	position: absolute;
+}
+
+.capabilities-content__text {
+	font-family: 'Open Sans';
+	width: 406px;
+	font-size: 11px;
+	line-height: 172%;
+	display: flex;
+	align-items: center;
+	letter-spacing: 0.2px;
+	color: #48555B;
+	margin: 0px 31px 0px 0px;
+}
+
+.capabilities-content__link {
+	font-family: 'Open Sans';
+	width: 150px;
+	height: 40px;
+	font-size: 13px;
+	font-weight: 600;
+	line-height: 115%;
+	letter-spacing: 0.5px;
+	background-color: #00A4E5;
+	color: #FFFFFF;
+	display: flex;
+	justify-content: center;align-items: center;
+}
+
+.capabilities__items {
+	display: flex;
+	justify-content: space-between;
+	margin: 0px 0px 78px 0px;
+}
+
+.capabilities__item {
+	padding: 38px 22px;
+	border: 1px solid #F2F2F2;
+}
+
+.capabilities__item:not(:last-child) {
+	margin: 0px 28px 0px 0px;
+}
+
+.capabilities-item__icon {
+	margin: 0px 0px 25px 0px;
+}
+
+.capabilities-item__title {
+	font-family: 'Open Sans';
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 150%;
+	letter-spacing: 0.426667px;
+	color: #48555B;
+	margin: 0px 0px 13px 0px;
+	color: #48555B;
+}
+
+.capabilities-item__text {
+	font-family: 'Open Sans';
+	font-size: 13px;
+	line-height: 177%;
+	letter-spacing: 0.1875px;
+	color: #48555B;
 }
 
 .footer {
